@@ -53,7 +53,7 @@ function SignUpForm() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/healthy-relationships-site">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/info" element={<InfoPage />} />
@@ -62,5 +62,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;
